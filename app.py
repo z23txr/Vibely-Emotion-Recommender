@@ -1,8 +1,5 @@
 import streamlit as st
 import pandas as pd
-import subprocess
-import sys
-import time
 import os
 import html
 import unicodedata
@@ -17,11 +14,7 @@ from app.core.emotion_detector import create_emotion_detector
 st.set_page_config(page_title="Vibely", layout="wide", initial_sidebar_state="collapsed")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-CREATE_NEW_CONSOLE = subprocess.CREATE_NEW_CONSOLE
 
-def get_python():
-    ev = r"C:\ev\Scripts\pythonw.exe"
-    return ev if os.path.exists(ev) else sys.executable.replace("python.exe", "pythonw.exe")
 
 def b64(fname):
     p = os.path.join(BASE_DIR, fname)
