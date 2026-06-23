@@ -2,7 +2,7 @@
 
 ![Vibely Banner](background.webp) 
 
-Vibely is an interactive AI-powered web application that recommends movies based on your real-time facial expressions. Forget scrolling endlessly through lists—let your mood decide your next movie!
+Vibely is an interactive AI-powered web application that recommends movies based on your real-time facial expressions. Forget scrolling endlessly through lists let your mood decide your next movie!
 
 ##  Features
 * **Real-time Emotion Detection**: Captures a quick photo via your webcam and uses Deep Learning to detect your current emotion (Happy, Sad, Angry, Surprised, etc.).
